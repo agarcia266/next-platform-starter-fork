@@ -70,12 +70,10 @@ export default function Page() {
                     style={{ aspectRatio: '3/2' }}
                 >
                     <Image
-                        src="/images/corgi.jpg"
-                        priority
-                        fill={true}
-                        style={{ objectFit: 'contain' }}
-                        sizes="(max-width: 1024px) 100vw, 1024px"
-                        alt="Corgi"
+                      src="http://nl.mg.s.inty.io/img.svg"
+                      alt="Picture of the author"
+                      width={500}
+                      height={500}
                     />
                 </div>
                 <span className="text-sm italic">
